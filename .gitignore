@@ -1,0 +1,16 @@
+# Ignore everything
+*
+
+# normally you wnat to exclude the following
+# .DS_Store
+# .conda/
+# .env/
+# .vscode/
+# plus any kind of data: *.txt *.jpg *.nii *.gz *.mat *.npy *.npg *.json *.csv ...
+
+# But not these files...
+!*.md
+!.gitignore
+
+# ...even if in subs
+!*/
